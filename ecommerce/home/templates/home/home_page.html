@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
+{% load static %}
 
+{% block include_files %}
+<link rel="stylesheet" href="{%  static 'home/css/home.css' %}">
+{% endblock %}
 
 {% block content %}
   <h1> Hello Word </h1>
